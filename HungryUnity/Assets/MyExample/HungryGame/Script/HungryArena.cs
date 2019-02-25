@@ -41,6 +41,6 @@ public class HungryArena : Area
             }
         }
 
-        CreateBanana(numberBananas, banana);
+//        CreateBanana(numberBananas, banana);
     }
 }

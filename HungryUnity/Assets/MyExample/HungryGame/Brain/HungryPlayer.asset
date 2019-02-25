@@ -13,13 +13,36 @@ MonoBehaviour:
   m_Name: HungryPlayer
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 1
+    vectorObservationSize: 45
     numStackedVectorObservations: 1
-    vectorActionSize: 01000000
+    vectorActionSize: 020000000200000002000000020000000200000002000000
     cameraResolutions: []
     vectorActionDescriptions:
+    - 
+    - 
+    - 
+    - 
+    - 
     - 
     vectorActionSpaceType: 0
   keyContinuousPlayerActions: []
   axisContinuousPlayerActions: []
-  discretePlayerActions: []
+  discretePlayerActions:
+  - key: 119
+    branchIndex: 0
+    value: 1
+  - key: 115
+    branchIndex: 0
+    value: 2
+  - key: 97
+    branchIndex: 1
+    value: 1
+  - key: 100
+    branchIndex: 1
+    value: 2
+  - key: 32
+    branchIndex: 2
+    value: 1
+  - key: 0
+    branchIndex: 2
+    value: 2
