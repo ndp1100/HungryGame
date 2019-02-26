@@ -52,6 +52,10 @@ public class HungryAgent : Agent
         AddVectorObs(localVelocity.z);
         AddVectorObs(DoGroundCheck(true) ? 1 : 0);
         AddVectorObs(System.Convert.ToInt32(JumpOverRazer()));
+
+        Vector3 agentPos = transform.position - myArea.ground.transform.position;
+        agentPos = agentPos / myArea.range;
+        AddVectorObs(agentPos);
 //        AddVectorObs(System.Convert.ToInt32(dashing));
     }
 

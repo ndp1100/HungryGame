@@ -165,6 +165,7 @@ MonoBehaviour:
   respawnBananas: 1
   range: 50
   redBlock: {fileID: 839101047}
+  ground: {fileID: 6558375751039259975}
 --- !u!1 &6558375751039259975
 GameObject:
   m_ObjectHideFlags: 0
