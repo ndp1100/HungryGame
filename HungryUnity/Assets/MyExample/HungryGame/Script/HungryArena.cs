@@ -9,6 +9,7 @@ public class HungryArena : Area
     public int numberBananas;
     public bool respawnBananas;
     public float range;
+    public RedBlockLogic redBlock;
 
     void CreateBanana(int numBana, GameObject bananaType)
     {
@@ -41,6 +42,11 @@ public class HungryArena : Area
             }
         }
 
-//        CreateBanana(numberBananas, banana);
+        CreateBanana(numberBananas, banana);
+
+//        if (redBlock != null)
+//        {
+//            redBlock.ResetArena();
+//        }
     }
 }

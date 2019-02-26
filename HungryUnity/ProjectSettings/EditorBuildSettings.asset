@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MyExample/HungryGame/Scene/HungryGameLearn.unity
+    guid: c2951f196fe63134c9187309b23f7a30
+  m_configObjects: {}

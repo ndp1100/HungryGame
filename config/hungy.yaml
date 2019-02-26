@@ -1,14 +1,14 @@
 default:
     trainer: ppo
-    batch_size: 1024
+    batch_size: 10
     beta: 5.0e-3
-    buffer_size: 10240
+    buffer_size: 100
     epsilon: 0.2
     gamma: 0.99
     hidden_units: 128
     lambd: 0.95
     learning_rate: 3.0e-4
-    max_steps: 5.0e4
+    max_steps: 30000
     memory_size: 256
     normalize: false
     num_epoch: 3
@@ -20,17 +20,6 @@ default:
     use_curiosity: false
     curiosity_strength: 0.01
     curiosity_enc_size: 128
-
-HungryLearn: 
-    max_steps: 1.0e6
-    batch_size: 128
-    buffer_size: 2048
-    beta: 5.0e-3
-    hidden_units: 256
-    summary_freq: 2000
-    time_horizon: 128
-    num_layers: 2
-    normalize: false
 
 BananaLearning:
     normalize: false

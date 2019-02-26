@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4747497601993511418}
   m_Layer: 0
   m_Name: HungryAgent
-  m_TagString: Untagged
+  m_TagString: agent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,11 +100,18 @@ MonoBehaviour:
     maxStep: 0
     resetOnDone: 1
     onDemandDecision: 0
-    numberOfActionsBetweenDecisions: 1
+    numberOfActionsBetweenDecisions: 10
   area: {fileID: 0}
   moveSpeed: 1
   dashSpeed: 40
   dashingTime: 0.5
+  jumpingTime: 0
+  jumpTime: 0.2
+  fallingForce: 111
+  hitGroundColliders:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &901913609670017991
 MonoBehaviour:
   m_ObjectHideFlags: 0

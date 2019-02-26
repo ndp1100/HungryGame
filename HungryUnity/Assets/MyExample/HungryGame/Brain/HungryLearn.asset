@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: HungryLearn
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 1
+    vectorObservationSize: 53
     numStackedVectorObservations: 1
-    vectorActionSize: 01000000
+    vectorActionSize: 030000000300000002000000
     cameraResolutions: []
     vectorActionDescriptions:
     - 
+    - 
+    - 
     vectorActionSpaceType: 0
-  model: {fileID: 0}
+  model: {fileID: 4900000, guid: f87ace73792cb4f4b91f219f4139c0ff, type: 3}
