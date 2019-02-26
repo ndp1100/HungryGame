@@ -193,6 +193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HungryArena (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5180323770015568378, guid: d3374ab4e7f142244990d126990c8aee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5180323770015568380, guid: d3374ab4e7f142244990d126990c8aee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -262,6 +267,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HungryArena (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5180323770015568378, guid: d3374ab4e7f142244990d126990c8aee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5180323770015568380, guid: d3374ab4e7f142244990d126990c8aee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -330,6 +340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HungryArena (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180323770015568378, guid: d3374ab4e7f142244990d126990c8aee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5180323770015568380, guid: d3374ab4e7f142244990d126990c8aee,
         type: 3}
@@ -502,8 +517,7 @@ MonoBehaviour:
   broadcastHub:
     broadcastingBrains:
     - {fileID: 11400000, guid: 88d28a0baa7d6c04faf611a7dd8bf53d, type: 2}
-    _brainsToControl:
-    - {fileID: 11400000, guid: 88d28a0baa7d6c04faf611a7dd8bf53d, type: 2}
+    _brainsToControl: []
   maxSteps: 2000
   trainingConfiguration:
     width: 80
@@ -555,6 +569,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HungryArena (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180323770015568378, guid: d3374ab4e7f142244990d126990c8aee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5180323770015568380, guid: d3374ab4e7f142244990d126990c8aee,
         type: 3}
